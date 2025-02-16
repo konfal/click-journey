@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature & Évasion - Inscription</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- En-tête de la page avec logo et navigation -->
+    <header>
+        <nav>
+            <div class="logo">Nature & Évasion</div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="recherche.html">Rechercher</a></li>
+                <li><a href="inscription.html">S'inscrire</a></li>
+                <li><a href="connexion.html">Se connecter</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Contenu principal de la page -->
+    <main>
+        <!-- Section d'inscription avec un formulaire et une image -->
+        <section class="registration">
+            <!-- Conteneur du formulaire d'inscription -->
+            <div class="form-container">
+                <h1>Inscription</h1>
+                <form action="submit_inscription.html" method="post">
+                    <!-- Champ pour le nom complet -->
+                    <div class="form-group">
+                        <label for="name">Nom:</label>
+                        <input type="text" id="name" name="name" placeholder="ex: Idir Bakiri" required>
+                    </div>
+                    <!-- Champ pour l'adresse e-mail -->
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="ex: moubtakiramine@gmail.com" required>
+                    </div>
+                    <!-- Champ pour le mot de passe -->
+                    <div class="form-group">
+                        <label for="password">Mot de passe:</label>
+                        <input type="password" id="password" name="password" placeholder="Votre mot de passe" required>
+                    </div>
+                    <!-- Champ pour confirmer le mot de passe -->
+                    <div class="form-group">
+                        <label for="confirm_password">Confirmez le mot de passe:</label>
+                        <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirmez votre mot de passe" required>
+                    </div>
+                    <!-- Bouton pour soumettre le formulaire d'inscription -->
+                    <button type="submit" class="submit-button">S'inscrire</button>
+                </form>
+            </div>
+            <!-- Conteneur de l'image d'inscription -->
+            <div class="image-containerrr">
+                <img src="https://img.freepik.com/free-vector/realistic-travel-horizontal-banner-suitcases-beach-umbrellas-other-attributes-tourism-gathered-together-vector-illustration_1284-81822.jpg" alt="Image d'inscription">
+            </div>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 Nature & Évasion. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

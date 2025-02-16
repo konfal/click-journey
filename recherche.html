@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature & Évasion - Recherche de Voyages</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Nature & Évasion</div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="recherche.html">Rechercher</a></li>
+                <li><a href="inscription.html">S'inscrire</a></li>
+                <li><a href="connexion.html">Se connecter</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="search-section">
+            <!-- Conteneur de l'image de recherche -->
+            <div class="image-containerr">
+                <img src="https://dissertation-help.co.uk/wp-content/uploads/2020/02/Tourism-Research-Proposal-Topics-1200x750.png" alt="Image de recherche">
+            </div>
+            <!-- Conteneur du formulaire de recherche -->
+            <div class="form-container">
+                <h1>Rechercher des Voyages</h1>
+                <p>Trouvez le séjour parfait en fonction de vos critères.</p>
+                <form action="resultats.html" method="get" class="filters-form">
+                    <div class="form-group">
+                        <label for="destination">Destination:</label>
+                        <input type="text" id="destination" name="destination" placeholder="Entrez une destination" aria-label="Destination">
+                    </div>
+                    <div class="form-group">
+                        <label for="checkin">Date d'arrivée:</label>
+                        <input type="date" id="checkin" name="checkin" aria-label="Date d'arrivée">
+                    </div>
+                    <div class="form-group">
+                        <label for="checkout">Date de départ:</label>
+                        <input type="date" id="checkout" name="checkout" aria-label="Date de départ">
+                    </div>
+                    <div class="form-group">
+                        <label for="options">Options:</label>
+                        <select id="options" name="options" aria-label="Options">
+                            <option value="all_inclusive">Tout inclus</option>
+                            <option value="half_board">Demi-pension</option>
+                            <option value="bed_breakfast">Chambre et petit déjeuner</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-button">Rechercher</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Nature & Évasion. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
